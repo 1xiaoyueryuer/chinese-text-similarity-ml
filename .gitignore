@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Model cache (auto-downloaded)
+model_cache/
+
+# Feature cache (large numpy files)
+results/features/*.npy
+
+# Data files (users can download themselves)
+data/*.npy
+data/*.txt
+data/*.csv
+!data/.gitkeep
+
+# LaTeX build files
+*.aux
+*.log
+*.out
+*.toc
+*.pdf
+
+# OS files
+.DS_Store
+Thumbs.db

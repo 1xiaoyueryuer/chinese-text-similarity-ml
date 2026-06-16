@@ -1,0 +1,331 @@
+{
+  "best_model": {
+    "embedding": "bge-base-zh",
+    "classifier": "LogisticRegression",
+    "accuracy": 0.899,
+    "f1": 0.9146238377007607,
+    "auc": 0.9655946332560548
+  },
+  "all_results": [
+    {
+      "embedding": "bge-small-zh",
+      "classifier": "SVM",
+      "accuracy": 0.888,
+      "precision": 0.8802588997,
+      "recall": 0.9347079038,
+      "f1": 0.9066666667,
+      "auc": 0.9571721008,
+      "training_time": 12.7128345966,
+      "confusion_matrix": [
+        [
+          344,
+          74
+        ],
+        [
+          38,
+          544
+        ]
+      ]
+    },
+    {
+      "embedding": "bge-small-zh",
+      "classifier": "RandomForest",
+      "accuracy": 0.873,
+      "precision": 0.9128856624,
+      "recall": 0.8642611684,
+      "f1": 0.8879082083,
+      "auc": 0.9488523323,
+      "training_time": 1.2352983952,
+      "confusion_matrix": [
+        [
+          370,
+          48
+        ],
+        [
+          79,
+          503
+        ]
+      ]
+    },
+    {
+      "embedding": "bge-small-zh",
+      "classifier": "XGBoost",
+      "accuracy": 0.88,
+      "precision": 0.8982758621,
+      "recall": 0.8951890034,
+      "f1": 0.8967297762,
+      "auc": 0.9502992486,
+      "training_time": 8.7912502289,
+      "confusion_matrix": [
+        [
+          359,
+          59
+        ],
+        [
+          61,
+          521
+        ]
+      ]
+    },
+    {
+      "embedding": "bge-small-zh",
+      "classifier": "LogisticRegression",
+      "accuracy": 0.887,
+      "precision": 0.8764044944,
+      "recall": 0.9381443299,
+      "f1": 0.9062240664,
+      "auc": 0.9560581397,
+      "training_time": 0.0582625866,
+      "confusion_matrix": [
+        [
+          341,
+          77
+        ],
+        [
+          36,
+          546
+        ]
+      ]
+    },
+    {
+      "embedding": "bge-base-zh",
+      "classifier": "SVM",
+      "accuracy": 0.899,
+      "precision": 0.9042016807,
+      "recall": 0.9243986254,
+      "f1": 0.9141886151,
+      "auc": 0.9665523932,
+      "training_time": 20.4522578716,
+      "confusion_matrix": [
+        [
+          361,
+          57
+        ],
+        [
+          44,
+          538
+        ]
+      ]
+    },
+    {
+      "embedding": "bge-base-zh",
+      "classifier": "RandomForest",
+      "accuracy": 0.894,
+      "precision": 0.9265232975,
+      "recall": 0.8883161512,
+      "f1": 0.9070175439,
+      "auc": 0.9599302849,
+      "training_time": 1.5608761311,
+      "confusion_matrix": [
+        [
+          377,
+          41
+        ],
+        [
+          65,
+          517
+        ]
+      ]
+    },
+    {
+      "embedding": "bge-base-zh",
+      "classifier": "XGBoost",
+      "accuracy": 0.9,
+      "precision": 0.9184027778,
+      "recall": 0.9089347079,
+      "f1": 0.9136442142,
+      "auc": 0.9604482152,
+      "training_time": 14.3164541721,
+      "confusion_matrix": [
+        [
+          371,
+          47
+        ],
+        [
+          53,
+          529
+        ]
+      ]
+    },
+    {
+      "embedding": "bge-base-zh",
+      "classifier": "LogisticRegression",
+      "accuracy": 0.899,
+      "precision": 0.9001663894,
+      "recall": 0.9295532646,
+      "f1": 0.9146238377,
+      "auc": 0.9655946333,
+      "training_time": 0.080065012,
+      "confusion_matrix": [
+        [
+          358,
+          60
+        ],
+        [
+          41,
+          541
+        ]
+      ]
+    },
+    {
+      "embedding": "sbert-chinese",
+      "classifier": "SVM",
+      "accuracy": 0.859,
+      "precision": 0.8539325843,
+      "recall": 0.9140893471,
+      "f1": 0.8829875519,
+      "auc": 0.9263429192,
+      "training_time": 11.519759655,
+      "confusion_matrix": [
+        [
+          327,
+          91
+        ],
+        [
+          50,
+          532
+        ]
+      ]
+    },
+    {
+      "embedding": "sbert-chinese",
+      "classifier": "RandomForest",
+      "accuracy": 0.844,
+      "precision": 0.8776595745,
+      "recall": 0.8505154639,
+      "f1": 0.8638743455,
+      "auc": 0.916440586,
+      "training_time": 1.0783407688,
+      "confusion_matrix": [
+        [
+          349,
+          69
+        ],
+        [
+          87,
+          495
+        ]
+      ]
+    },
+    {
+      "embedding": "sbert-chinese",
+      "classifier": "XGBoost",
+      "accuracy": 0.846,
+      "precision": 0.8728222997,
+      "recall": 0.8608247423,
+      "f1": 0.8667820069,
+      "auc": 0.9209950838,
+      "training_time": 6.8537080288,
+      "confusion_matrix": [
+        [
+          345,
+          73
+        ],
+        [
+          81,
+          501
+        ]
+      ]
+    },
+    {
+      "embedding": "sbert-chinese",
+      "classifier": "LogisticRegression",
+      "accuracy": 0.859,
+      "precision": 0.8608837971,
+      "recall": 0.9037800687,
+      "f1": 0.8818105616,
+      "auc": 0.9251878525,
+      "training_time": 0.0831663609,
+      "confusion_matrix": [
+        [
+          333,
+          85
+        ],
+        [
+          56,
+          526
+        ]
+      ]
+    },
+    {
+      "embedding": "text2vec",
+      "classifier": "SVM",
+      "accuracy": 0.882,
+      "precision": 0.8790849673,
+      "recall": 0.9243986254,
+      "f1": 0.9011725293,
+      "auc": 0.9503485753,
+      "training_time": 26.1038439274,
+      "confusion_matrix": [
+        [
+          344,
+          74
+        ],
+        [
+          44,
+          538
+        ]
+      ]
+    },
+    {
+      "embedding": "text2vec",
+      "classifier": "RandomForest",
+      "accuracy": 0.868,
+      "precision": 0.904676259,
+      "recall": 0.8642611684,
+      "f1": 0.8840070299,
+      "auc": 0.9436216478,
+      "training_time": 1.5863580704,
+      "confusion_matrix": [
+        [
+          365,
+          53
+        ],
+        [
+          79,
+          503
+        ]
+      ]
+    },
+    {
+      "embedding": "text2vec",
+      "classifier": "XGBoost",
+      "accuracy": 0.866,
+      "precision": 0.8862068966,
+      "recall": 0.883161512,
+      "f1": 0.8846815835,
+      "auc": 0.9441457439,
+      "training_time": 15.3999197483,
+      "confusion_matrix": [
+        [
+          352,
+          66
+        ],
+        [
+          68,
+          514
+        ]
+      ]
+    },
+    {
+      "embedding": "text2vec",
+      "classifier": "LogisticRegression",
+      "accuracy": 0.87,
+      "precision": 0.885665529,
+      "recall": 0.8917525773,
+      "f1": 0.8886986301,
+      "auc": 0.9255290288,
+      "training_time": 0.7864894867,
+      "confusion_matrix": [
+        [
+          351,
+          67
+        ],
+        [
+          63,
+          519
+        ]
+      ]
+    }
+  ]
+}
