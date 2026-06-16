@@ -2,7 +2,11 @@
 
 ## 项目简介
 
-本项目是机器学习课程报告，研究如何使用预训练的Embedding模型（Hugging Face）提取文本特征，结合传统机器学习分类器（SVM、随机森林、XGBoost等）进行文本语义相似度判断。
+This project is a machine learning course report that studies how to use pre-trained Embedding models (Hugging Face) to extract text features, combined with traditional machine learning classifiers (SVM, Random Forest, XGBoost, etc.) for Chinese text semantic similarity classification.
+
+**Project Report**: See `课程报告.pdf` for the full paper.
+
+**GitHub Repository**: https://github.com/1xiaoyueryuer/chinese-text-similarity-ml
 
 ## 项目结构
 
@@ -161,11 +165,12 @@ sentence1\tsentence2\tlabel
 
 ## AI使用说明
 
-本项目在开发过程中使用了以下AI工具：
+This project uses AI tools as follows during the development process:
 
-- **ChatGPT**: 辅助代码设计、论文框架构思（约30%）
-- **GitHub Copilot**: 代码补全与调试辅助（约20%）
-- **人工完成**: 代码审查、实验分析、论文撰写（约50%）
+- **Kimi-K2.6**: Polishing the paper language and searching for relevant academic data (approximately 20%)
+- **Human work**: Project design, code architecture and implementation, experiment execution, and result analysis (approximately 80%)
+
+The core ideas, algorithm design, and code implementation are independently completed by the author.
 
 ## 许可证
 
